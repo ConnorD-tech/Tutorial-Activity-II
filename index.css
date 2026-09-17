@@ -1,0 +1,78 @@
+/* Cascading Style Sheet*/
+/* CSS-3*/
+@charset "UTF-8";
+
+
+body{
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+
+h1,h2,h3,h4,h5.h6,p,li
+{
+    margin: 15px;
+}
+#footer
+{
+    height:80px;
+}
+.clear /*calling a class*/
+{
+    clear: both;
+}
+#banner
+{
+    height: 120px;
+    background-color: chartreuse;
+}
+#banner h1
+{
+    padding-top: 15px;
+    color:azure;
+}
+#wrapper
+{
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(219, 204, 180);
+}
+#right-column
+{
+   
+    width: 600px;
+    height: 600px;
+    background-color:darkkhaki;
+    float:right;
+}
+#left-column
+{
+    width: 360px;
+    height: 600px;
+    float:left;
+    background-color:aquamarine;
+
+
+}
+.box
+{
+    height: 150px;
+    width: 150px;
+    float: left;
+    background-color: cornsilk;
+    margin: 20px;
+    opacity: .75;
+    border-radius: 25px 50px;
+}
+.box:hover
+{
+    height: 165px;
+    width: 165px;
+    opacity: 1;
+}
